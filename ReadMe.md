@@ -31,7 +31,7 @@ In addition to creating popups, JavaScript provides a set of window methods that
 •	blur(): Removes focus from the current window or tab.
 
 
-## Popup blocking
+## Popup-blocking
 Popup blocking is a feature in modern web browsers that prevents websites from opening new browser windows or pop-up windows without the user's consent. This feature was introduced to improve the user experience and protect users from unwanted or potentially harmful pop-ups, such as advertisements, malicious content, or excessive use of pop-up windows by websites.
 Here are some key points to understand about popup blocking:
 1.	User Control: Popup blocking gives users control over when and how pop-up windows are displayed. Browsers typically provide settings that allow users to enable or disable popup blocking, as well as options to manage exceptions for specific websites.
@@ -46,7 +46,7 @@ Here are some key points to understand about popup blocking:
 7.	Compatibility: Web developers should be aware that not all users have popup blocking disabled. Therefore, websites should be designed to work smoothly whether pop-ups are blocked or allowed.
 
 
-## Focus/Blur on a window
+## Focus/Blur-on-a-window
 In JavaScript, you can use the focus() and blur() methods to respectively give focus to and remove focus from a browser window or tab. These methods are useful for controlling which window or tab the user is interacting with, especially when working with multiple windows or tabs in a web application.
 Here's how to use the focus() and blur() methods:
 1.	Focus on a Window:
@@ -60,7 +60,7 @@ javascriptCopy code
 // Remove focus from the current window window.blur(); // Remove focus from a window opened using window.open() const newWindow = window.open('https://www.example.com', 'exampleWindow', 'width=600,height=400'); newWindow.blur(); 
 When you call blur() on a window, it becomes inactive, and user input is no longer directed to that window.
 
-## Cross-window communication 
+## Cross-window-communication 
 Cross-window communication refers to the process of exchanging data or messages between different browser windows, tabs, or iframes in a web application. This communication is essential for building interactive and collaborative web applications that involve multiple browser contexts. Several techniques and APIs are commonly used for cross-window communication:
 1.	Window Object and Properties:
 •	window.opener: When a window is opened using window.open(), the newly created window has a reference to the window that opened it. This reference can be accessed through the window.opener property. This allows the child window to communicate with its parent window.
@@ -74,7 +74,7 @@ Cross-window communication refers to the process of exchanging data or messages 
 •	When you have iframes embedded within a web page, you can use the postMessage() method to communicate between the parent document and the iframes. This is useful for securely passing data between different parts of a web page.
 
 
-## Clickjacking Attack: 
+## Clickjacking-Attack: 
 Clickjacking, also known as a UI redress attack, is a type of security vulnerability and attack in which an attacker tricks a user into clicking on something different from what the user perceives, potentially leading to unintended actions being performed without the user's knowledge or consent. Clickjacking attacks typically involve overlaying or embedding malicious content on a legitimate website or web application.
 Here's how a clickjacking attack works:
 1.	The attacker creates a malicious web page or injects malicious code into a legitimate website.
@@ -85,7 +85,7 @@ To protect against clickjacking attacks, web developers can implement various se
 
 
 
-## ArrayBuffer and Binary Arrays:
+## ArrayBuffer-and-Binary-Arrays:
 ArrayBuffer is a built-in JavaScript object that represents a fixed-length binary data buffer. It is used to hold raw binary data and is often used in conjunction with Typed Arrays and DataViews to work with binary data efficiently. ArrayBuffer provides a way to manipulate binary data directly in memory.
 Here's a brief overview of ArrayBuffer and related concepts:
 •	ArrayBuffer: An ArrayBuffer is created with a specified byte length and can store binary data in a contiguous block of memory. It cannot be resized once created.
@@ -100,7 +100,7 @@ const buffer = new ArrayBuffer(4); const view = new DataView(buffer); view.setIn
 ArrayBuffer and related APIs are commonly used in scenarios where efficient binary data manipulation is required, such as when working with binary file formats, network protocols, or manipulating multimedia data in web applications. These features can be a powerful tool for handling binary data securely and efficiently in JavaScript.
 
 
-## Files, patterns and flags
+## Files,-patterns-and-flags
 1. File Objects:
 File objects represent files selected by the user through an <input type="file"> element in HTML. They are used to access and manipulate files in the client-side JavaScript environment. File objects contain information about the file, such as its name, size, type, and the actual file content. You can use the File API to work with file objects, including reading their content and uploading them to a server.
 2. FormData:
