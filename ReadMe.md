@@ -1,4 +1,4 @@
-Table of contents
+#Table of contents
 1. [Popups and Window Methods](#popups-and-window-methods)
     - [Popups](#popups)
     - [Window Methods](#window-methods)
