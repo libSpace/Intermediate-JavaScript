@@ -13,7 +13,7 @@
 
 ## popups-and-window-methods
 Popups and window methods are important aspects of web development, primarily used to create new browser windows or interact with existing browser windows or tabs. They are commonly used to display additional content, dialogs, or perform various user interface actions in web applications. Here's an introduction to popups and some commonly used window methods in JavaScript:
-Popups:
+# Popups:
 Popups are small, secondary browser windows that appear on top of the main browser window. They are typically used for purposes like displaying additional information, forms, alerts, or custom user interfaces. There are three main types of popups in web development:
 1.	Alerts:
 Alerts are simple modal dialog boxes that display a message to the user and require the user to click "OK" to dismiss them. They are created using the alert() method.
@@ -21,7 +21,7 @@ Alerts are simple modal dialog boxes that display a message to the user and requ
 Confirmations are modal dialogs that ask the user for a binary choice, typically "OK" or "Cancel." They are created using the confirm() method.
 3.	Prompts:
 Prompts are modal dialogs that prompt the user to enter text input. They are created using the prompt() method.
-Window Methods:
+# Window-Methods:
 In addition to creating popups, JavaScript provides a set of window methods that allow you to interact with and manipulate browser windows or tabs. Some commonly used window methods include:
 •	open(url, name, specs, replace): Opens a new browser window or tab with the specified URL, window name, and optional features.
 •	close(): Closes the current browser window or tab if it was opened using window.open().
