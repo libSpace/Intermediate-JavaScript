@@ -9,7 +9,7 @@ Table of contents
 6. [ArrayBuffer and Binary Arrays](#arraybuffer-and-binary-arrays)
 7. [Files, Patterns, and Flags](#files-patterns-and-flags)
 
-##Popups and window Methods
+##popups-and-window-methods
 Popups and window methods are important aspects of web development, primarily used to create new browser windows or interact with existing browser windows or tabs. They are commonly used to display additional content, dialogs, or perform various user interface actions in web applications. Here's an introduction to popups and some commonly used window methods in JavaScript:
 Popups:
 Popups are small, secondary browser windows that appear on top of the main browser window. They are typically used for purposes like displaying additional information, forms, alerts, or custom user interfaces. There are three main types of popups in web development:
